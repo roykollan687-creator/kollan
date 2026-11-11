@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="bn"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KOLLAN - Photo Editing 50 Taka | Website 500 Taka | Bangladesh</title>
+<meta name="description" content="KOLLAN - Professional Photo Editing only 50 Taka per photo and Website Development from 500 Taka in Bangladesh. bKash / Nagad payment. WhatsApp 01341402496. Your Vision, Our Creativity.">
+<meta name="google-site-verification" content="PASTE_YOUR_GOOGLE_CODE_HERE">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,Arial,sans-serif;background:#050508;color:#fff;line-height:1.6}
+a{color:#00d4ff}.wrap{max-width:1100px;margin:auto;padding:0 16px}
+header{position:sticky;top:0;background:rgba(5,5,8,.92);backdrop-filter:blur(10px);z-index:10;border-bottom:1px solid #222}
+nav{display:flex;justify-content:space-between;align-items:center;padding:14px 0}.logo{font-size:28px;font-weight:900;letter-spacing:2px}.logo span{color:#a855f7}
+nav a{color:#fff;text-decoration:none;margin:0 8px;font-size:14px}
+.btn{display:inline-block;background:linear-gradient(90deg,#2563ff,#7c3aed);color:#fff;padding:12px 20px;border-radius:999px;text-decoration:none;font-weight:700;border:0;cursor:pointer}
+.btn2{background:#fff;color:#111}.hero{padding:50px 0;text-align:center;background:radial-gradient(circle at 20% 20%,#7c3aed55,transparent 40%),radial-gradient(circle at 80% 20%,#2563ff55,transparent 40%)}
+.hero h1{font-size:42px;line-height:1.1;margin:10px 0}.hero h1 span{background:linear-gradient(90deg,#00d4ff,#a855f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.card{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:18px;padding:20px;margin:14px 0}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.price{font-size:32px;font-weight:900;color:#00d4ff}
+input,select,textarea{width:100%;padding:12px;border-radius:10px;border:1px solid #444;background:#111;color:#fff;margin:6px 0}
+label{font-size:14px;font-weight:700}.badge{background:#22c55e;color:#000;padding:4px 10px;border-radius:999px;font-weight:700;font-size:12px}
+.pay{display:flex;gap:12px;flex-wrap:wrap}.pay div{flex:1;min-width:220px;background:#111;border:1px solid #7c3aed;border-radius:14px;padding:16px}
+footer{text-align:center;padding:30px;color:#aaa;font-size:13px}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.hero h1{font-size:32px}nav a{display:none}.logo{font-size:22px}}
+</style></head>
+<body>
+<header><div class="wrap"><nav><div class="logo">KOLLAN<span>.</span></div><div><a href="#services">Services / সার্ভিস</a><a href="#pricing">Pricing / দাম</a><a href="#payment">Payment / পেমেন্ট</a><a href="#contact">Contact</a></div><a class="btn" href="https://wa.me/8801341402496">WhatsApp করুন</a></nav></div></header>
+<main class="wrap">
+<section class="hero"><div class="badge">🇧🇩 Made in Bangladesh • বাংলাদেশ থেকে</div>
+<h1>Turn Your Ideas Into Reality.<br><span>আপনার আইডিয়া থেকে বাস্তব সৃষ্টি।</span></h1>
+<p>Professional Photo Editing and Custom Website Development Services.<br>প্রফেশনাল ফটো এডিটিং ও সুন্দর ওয়েবসাইট বানানো হয়।</p>
+<p><b>Your Vision, Our Creativity.</b> — আপনার ভিশন, আমাদের ক্রিয়েটিভিটি।</p>
+<a class="btn" href="#services">Explore Our Services / সার্ভিস দেখুন</a> <a class="btn btn2" href="#confirm">আগে কনফার্ম করুন →</a>
+<p style="margin-top:16px">📸 ফটো এডিটিং <b>মাত্র ৫০ টাকা</b> &nbsp;|&nbsp; 🌐 ওয়েবসাইট <b>মাত্র ৫০০ টাকা থেকে</b></p>
+</section>
+
+<section id="confirm" class="card" style="border-color:#22c55e"><h2>⚠️ Before Order, Message First / অর্ডার করার আগে মেসেজ করুন</h2>
+<p>টাকা পাঠানোর আগে অবশ্যই WhatsApp-এ কনফার্ম করে নিন। Please confirm price and delivery time on WhatsApp before sending any bKash / Nagad payment.</p>
+<a class="btn" href="https://wa.me/8801341402496?text=Assalamualaikum%20KOLLAN%2C%20ami%20order%20confirm%20korte%20chai">✅ Confirm on WhatsApp First / আগে WhatsApp-এ কনফার্ম করুন — 01341402496</a>
+<h3 style="margin-top:20px">Quick Confirm Form / দ্রুত কনফার্ম ফর্ম</h3>
+<form onsubmit="confirmOrder(event)"><label>আপনার নাম / Your Name</label><input required id="cname" placeholder="আপনার নাম">
+<label>WhatsApp নম্বর</label><input required id="cphone" placeholder="01XXXXXXXXX">
+<label>কী চান? / What do you want?</label><select id="cwhat"><option>Photo Editing - ফটো এডিটিং (50 Taka)</option><option>Website - ওয়েবসাইট (500 Taka থেকে)</option></select>
+<label>মেসেজ / Message</label><textarea id="cmsg" placeholder="যেমন: আমার ২টা ছবি এডিট করতে হবে..."></textarea>
+<label><input type="checkbox" required style="width:auto"> আমি বুঝেছি - টাকা পাঠানোর আগে WhatsApp-এ কনফার্ম করবো</label><br>
+<button class="btn" type="submit">Confirm Request পাঠান</button></form><p id="cresult"></p></section>
+
+<section id="services"><h2>Our Services / আমাদের সার্ভিস</h2>
+<div class="grid"><div class="card"><h3>📸 Photo Editing Studio / ফটো এডিটিং</h3><p>Background Removal, Retouching, Portrait Enhancement, Color Correction, Photo Manipulation, Social Media Design, Product Photo, Image Restoration.<br>একটা ছবি পুরোটাই অনেক সুন্দর করে এডিট করে দেওয়া হবে।</p><p class="price">৫০ টাকা / ছবি</p><a class="btn" href="#order-photo">অর্ডার করুন / Order Now</a></div>
+<div class="card"><h3>🌐 Website Development / ওয়েবসাইট বানানো</h3><p>Business, Portfolio, E-commerce, Personal, Landing Page, Blog, Custom Website.<br>অনেক সুন্দর, মোবাইল-ফ্রেন্ডলি, দ্রুত ওয়েবসাইট বানিয়ে দেওয়া হবে।</p><p class="price">৫০০ টাকা থেকে</p><a class="btn" href="#order-web">অর্ডার করুন / Order Now</a></div></div></section>
+
+<section id="pricing"><h2>Pricing / দাম — টাকায়</h2>
+<div class="grid"><div class="card"><h3>📸 Photo Editing</h3><p>১টা ছবি — <b>৫০ টাকা</b></p><p>৫টা ছবি — <b>২৩০ টাকা</b></p><p>১০টা ছবি — <b>৪৫০ টাকা</b></p><p>সব ধরনের এডিটিং একই দামে।</p></div>
+<div class="card"><h3>🌐 Website</h3><p>Basic Website — <b>৫০০ টাকা</b></p><p>Business Website — <b>১,৫০০ টাকা</b></p><p>Premium / E-commerce — <b>৩,০০০ টাকা+</b></p><p>ডিজাইন অনুযায়ী দাম — WhatsApp-এ কনফার্ম করুন।</p></div></div></section>
+
+<section id="payment"><h2>Payment / পেমেন্ট — বিকাশ / নগদ</h2>
+<p><b>নিয়ম:</b> ১) WhatsApp-এ অর্ডার কনফার্ম করুন → ২) বিকাশ / নগদে টাকা পাঠান → ৩) TrxID টা ফর্মে / WhatsApp-এ দিন → ৪) কাজ শুরু হবে।</p>
+<div class="pay"><div><h3>📱 bKash (Personal)</h3><p style="font-size:26px;font-weight:900">01341402496</p><button class="btn" onclick="navigator.clipboard.writeText('01341402496');alert('bKash number copied!')">Copy Number / কপি করুন</button></div>
+<div><h3>📱 Nagad</h3><p style="font-size:26px;font-weight:900">01341402496</p><button class="btn" onclick="navigator.clipboard.writeText('01341402496');alert('Nagad number copied!')">Copy Number / কপি করুন</button></div></div>
+<p>⚠️ No automatic payment. Manual confirmation on WhatsApp. কোনো অগ্রিম টাকা ছাড়া কাজ শুরু হবে না, আগে WhatsApp-এ কনফার্ম করুন।</p></section>
+
+<section id="order-photo" class="card"><h2>📸 Photo Editing Order / ফটো এডিটিং অর্ডার</h2>
+<form onsubmit="submitOrder(event,'photo')"><label>নাম / Name</label><input required placeholder="আপনার নাম">
+<label>WhatsApp নম্বর</label><input required placeholder="01XXXXXXXXX">
+<label>এডিটিং সার্ভিস</label><select><option>Background Removal</option><option>Professional Retouching</option><option>Portrait Enhancement</option><option>Color Correction</option><option>Photo Manipulation</option><option>Social Media Design</option><option>Product Photo Editing</option><option>Image Restoration</option></select>
+<label>ছবি আপলোড করুন / Upload Photo</label><input type="file" accept="image/*" onchange="preview(event)">
+<div id="preview"></div>
+<label>নির্দেশনা / Instructions</label><textarea placeholder="ছবিটা কেমন চান লিখুন..."></textarea>
+<label>Payment Method</label><select><option>bKash - 01341402496</option><option>Nagad - 01341402496</option></select>
+<label>TrxID (যদি টাকা পাঠিয়ে থাকেন)</label><input placeholder="যেমন: 9HX...">
+<label><input type="checkbox" required style="width:auto"> আমি WhatsApp-এ কনফার্ম করেছি / I have confirmed on WhatsApp</label><br>
+<button class="btn" type="submit">অর্ডার পাঠান / Submit Order</button></form><p id="oresult"></p></section>
+
+<section id="order-web" class="card"><h2>🌐 Website Order / ওয়েবসাইট অর্ডার</h2>
+<form onsubmit="submitOrder(event,'web')"><label>নাম / Name</label><input required placeholder="আপনার নাম">
+<label>WhatsApp নম্বর</label><input required placeholder="01XXXXXXXXX">
+<label>Project Type</label><select><option>Business Website - 1500 Taka</option><option>Portfolio Website</option><option>E-commerce Website</option><option>Personal Website</option><option>Landing Page - 500 Taka</option><option>Blog Website</option></select>
+<label>আপনি কেমন ওয়েবসাইট চান? / Description</label><textarea placeholder="আপনার ব্যবসা / দোকান সম্পর্কে লিখুন..."></textarea>
+<label>Budget / বাজেট</label><select><option>500 Taka</option><option>500 - 1500 Taka</option><option>1500 - 3000 Taka</option><option>3000+ Taka</option></select>
+<label>TrxID (যদি থাকে)</label><input placeholder="TrxID">
+<label><input type="checkbox" required style="width:auto"> আমি WhatsApp-এ কনফার্ম করেছি</label><br>
+<button class="btn" type="submit">ইনকোয়ারি পাঠান / Send Inquiry</button></form></section>
+
+<section class="card"><h2>Portfolio / কাজের নমুনা</h2><p>DEMO PROJECT / ডেমো কাজ — আপনার কাজ এখানে আসতে পারে। Owner has no previous work yet, so beautiful demo projects are shown.</p>
+<div class="grid"><div class="card">🖼️ DEMO - Portrait Retouching</div><div class="card">🛍️ DEMO - Product Photo</div><div class="card">🌐 DEMO - Business Website</div><div class="card">🛒 DEMO - E-commerce Website</div></div></section>
+
+<section class="card"><h2>About KOLLAN / আমাদের সম্পর্কে</h2><p>KOLLAN is a creative studio from Bangladesh, built with passion for beautiful design. <b>Your Vision, Our Creativity</b> — this is our promise. We help small businesses, creators, students and shop owners with beautiful photo editing and modern websites at honest, affordable prices in Bangladesh. Every photo is edited with care, every website is made mobile-friendly, fast and beautiful.</p><p>আমাদের মূল্যবোধ: সৎ দাম / Honest Price • দ্রুত ডেলিভারি / Fast Delivery • বন্ধুত্বপূর্ণ সাপোর্ট / Friendly Support</p></section>
+
+<section class="card"><h2>FAQ / প্রশ্ন-উত্তর</h2><p><b>ফটো এডিটিং কত টাকা?</b> — মাত্র ৫০ টাকা / ছবি।<br><b>ওয়েবসাইট কত টাকা?</b> — ৫০০ টাকা থেকে শুরু।<br><b>টাকা কিভাবে দিবো?</b> — বিকাশ / নগদ: 01341402496, আগে WhatsApp-এ কনফার্ম করুন।<br><b>কত সময় লাগে?</b> — ফটো সাধারণত ২৪ ঘণ্টার মধ্যে, ওয়েবসাইট ডিজাইন অনুযায়ী।</p></section>
+
+<section id="contact" class="card"><h2>Contact / যোগাযোগ</h2><p>📱 WhatsApp: <a href="https://wa.me/8801341402496">01341402496</a><br>📧 Email: <a href="mailto:roykollan687@gmail.com">roykollan687@gmail.com</a><br>📘 Facebook: KOLLAN Facebook Page<br>▶️ YouTube: @janobiggan<br>💰 bKash / Nagad (Personal): 01341402496</p>
+<form onsubmit="event.preventDefault();alert('Message saved! WhatsApp-এ মেসেজ করুন: 01341402496');"><label>নাম</label><input required><label>মেসেজ</label><textarea required></textarea><button class="btn">মেসেজ পাঠান</button></form></section>
+</main>
+<footer>© 2026 KOLLAN - Made in Bangladesh • Your Vision, Our Creativity.<br>Photo Editing 50 Taka | Website 500 Taka | bKash/Nagad 01341402496</footer>
+<script>
+function preview(e){var d=document.getElementById('preview');d.innerHTML='';var f=e.target.files[0];if(f){var r=new FileReader();r.onload=function(ev){d.innerHTML='<img src="'+ev.target.result+'" style="width:150px;border-radius:12px;margin-top:8px">'};r.readAsDataURL(f)}}
+function confirmOrder(e){e.preventDefault();document.getElementById('cresult').innerHTML='✅ Confirm Request Saved! এখন WhatsApp-এ মেসেজ করুন: <a href="https://wa.me/8801341402496">01341402496</a>';}
+function submitOrder(e,t){e.preventDefault();document.getElementById('oresult').innerHTML='✅ Order Saved! WhatsApp-এ মেসেজ করুন: 01341402496';alert('Order Saved! WhatsApp-এ কনফার্ম করুন: 01341402496');}
+</script></body></html>

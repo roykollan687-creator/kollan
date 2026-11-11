@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kollan-studio.netlify.app/sitemap.xml
